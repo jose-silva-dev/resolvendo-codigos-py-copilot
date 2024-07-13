@@ -1,0 +1,79 @@
+# 1 - Concatenando Dados 🐾
+
+# Solicita a primeira entrada do usuário
+primeira_entrada = input("Digite a primeira string: ")
+
+# Solicita a segunda entrada do usuário
+segunda_entrada = input("Digite a segunda string: ")
+
+# Concatena as duas strings
+string_concatenada = primeira_entrada + " " + segunda_entrada
+
+# Exibe a string concatenada
+print("A string concatenada é:", string_concatenada)
+
+# 2 - Repetindo Textos ✏️
+
+# Solicita uma string do usuário
+entrada_string = input("Digite uma string: ")
+
+# Solicita um número inteiro do usuário
+entrada_numero = int(input("Digite um número inteiro: "))
+
+# Repete a string o número de vezes especificado
+string_repetida = entrada_string * entrada_numero
+
+# Exibe a string repetida
+print("A string repetida é:", string_repetida)
+
+# 3 - Operações Matemáticas Simples 📐
+
+# Solicita o primeiro número do usuário
+numero1 = float(input("Digite o primeiro número: "))
+
+# Solicita o segundo número do usuário
+numero2 = float(input("Digite o segundo número: "))
+
+# Realiza a adição dos dois números
+resultado = numero1 + numero2
+
+# Exibe o resultado da operação
+print("O resultado da adição é:", resultado)
+
+4 - Verificando Números Pares e Ímpares 🧮
+
+# Solicita um número inteiro do usuário
+numero = int(input("Digite um número inteiro: "))
+
+# Verifica se o número é par ou ímpar
+if numero % 2 == 0:
+    print(f"O número {numero} é par.")
+else:
+    print(f"O número {numero} é ímpar.")
+
+# 5 - Calculando Média de Notas 📚
+
+# Solicita três notas do usuário
+nota1 = float(input("Digite a primeira nota: "))
+nota2 = float(input("Digite a segunda nota: "))
+nota3 = float(input("Digite a terceira nota: "))
+
+# Calcula a média das notas
+media = (nota1 + nota2 + nota3) / 3
+
+# Exibe a média das notas
+print(f"A média das notas é: {media:.2f}")
+
+# 6 - Verificando Palíndromos 🔄
+
+# Solicita uma palavra do usuário
+palavra = input("Digite uma palavra: ")
+
+# Inverte a palavra
+palavra_invertida = palavra[::-1]
+
+# Verifica se a palavra é um palíndromo
+if palavra == palavra_invertida:
+    print(f"A palavra '{palavra}' é um palíndromo.")
+else:
+    print(f"A palavra '{palavra}' não é um palíndromo.")
